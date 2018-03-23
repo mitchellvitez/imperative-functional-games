@@ -8,5 +8,6 @@ The games are based on the tutorials at [www.aaroncox.net/tutorials/arcade](http
 
 C++: compile with `make`, then run `./Game`
 
-Haskell: compile with `ghc Game.hs`, then run './game'
+Haskell: compile with `ghc Game.hs`, then run './Game'
 
+![c++ and haskell video game logo](/shared/background.png)
