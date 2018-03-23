@@ -1,0 +1,10 @@
+*.o
+*.hi
+*.swp
+
+Intro
+Tetris
+Pong
+Breakout
+
+!*/
