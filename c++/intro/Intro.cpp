@@ -106,9 +106,6 @@ void Exit() {
 }
 
 void DrawBackground() {
-  SDL_Rect source = {0, 0, WINDOW_WIDTH, WINDOW_HEIGHT};
-  SDL_Rect destination = {0, 0, WINDOW_WIDTH, WINDOW_HEIGHT};
-
   SDL_Texture* texture = SDL_CreateTextureFromSurface(g_Renderer, g_Bitmap);
   SDL_RenderCopy(g_Renderer, texture, nullptr, nullptr);
 }
